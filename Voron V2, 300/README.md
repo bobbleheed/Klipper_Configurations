@@ -8,3 +8,5 @@ Before using on your own printer please read up on the projects they are from an
   Klicky Probe: https://github.com/jlas1/Klicky-Probe
   
   Auto Z Calibration: https://github.com/protoloft/klipper_z_calibration
+  
+To use my PA_tuning_5k.gcode file, M900.cfg must be included within your printer config file. This GCODE uses Marlin's Linear Advance test pattern to tune Klipper's Pressure Advance. The use of another individual's GCODE on your own printer is done at your own risk! You can create your own GCODE at: https://marlinfw.org/tools/lin_advance/k-factor.html
